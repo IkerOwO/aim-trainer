@@ -1,7 +1,7 @@
 # aim-trainer
 A small game created on Electron
 
-# HOW TO INSTALL IT
+# How to install it
 
 Install NPM Dependencies
 ```bash

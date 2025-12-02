@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Departure-mono';
+    src: url(../../public/fonts/DepartureMono/DepartureMono-Regular.woff2) format("woff2");
+}
+
+html, body{
+    cursor: crosshair;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between; /* texto a la izquierda, botón a la derecha */
+    align-items: center;
+    border-bottom: 1px solid #000;
+    color: var(--text);
+}
+
+.header-container h4{
+    font-family: 'Departure-mono';
+    margin-left: 30px;
+}
+
+.buttons{
+    margin: 0;
+    float: right;
+}
+
+.buttons button{
+    margin-top: 0px;
+    margin-right: 20px;
+    width: 50px;
+    height: 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#close{
+    transition: 200ms all ease-in;
+}
+#close:hover{
+    background-color: rgb(245, 128, 128);
+}
+
+#minimize{
+    transition: 200ms all ease-in;
+}
+#minimize:hover{
+    background-color: rgb(128, 212, 245);
+}
+
+#darkModeBtn{
+    transition: 200ms all ease-in;
+}
+#darkModeBtn:hover{
+    background-color: rgb(128, 245, 144);
+}
+
+.buttons img{
+    width: 10px;
+    height: 10px;
+}
+
+img, button, h3{
+    user-select: none;
+}
+
+
+
+
+

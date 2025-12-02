@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../public/img/icon.png" type="png">
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+    <title>Aim Trainer</title>
+</head>
+<body onload="mover()">
+    <!-- HEADER -->
+    <div class="header-container">
+        <h4 id="title">Aim Trainer</h4>
+        <!-- POINTS -->
+        <h2 id="puntosH3" style="text-align: center;"></h2>
+        <!-- HEADER BUTTONS -->
+        <div class="buttons">
+            <!-- BOTON DARK / LIGHT-->
+            <button id="darkModeBtn" onclick="toggleDarkMode()" style="cursor: pointer;"><img src="../public/img/themeBTN.png" alt=""></button>
+            <button id="minimize">-</button>
+            <button id="close">X</button>
+        </div>
+    </div>
+    <!-- IMG -->
+    <img src="../public/img/target.png" style="width: 200px; position: absolute;" draggable="false" id="target" name="target" onclick="hitTarget()">
+    <img src="../public/img/target.png" style="width: 80px; position: absolute;" draggable="false" id="targetmini" name="targetmini" onclick="hitTargetMini()">
+</body>
+<script src="./Script/index.js"></script>
+</html>

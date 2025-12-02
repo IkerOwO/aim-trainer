@@ -15,5 +15,5 @@ npm install electron --save-dev
 
 Run the App
 ```bash
-npm start dev
+npm run start
 ```

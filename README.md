@@ -1,5 +1,5 @@
 # aim-trainer
-A small game created on Electron
+A small game created on Electron with HTML, CSS and JS
 
 # How to install it
 
